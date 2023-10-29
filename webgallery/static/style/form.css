@@ -1,0 +1,75 @@
+
+  
+  .button {
+    margin-top: 30px;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .complex_form {
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 3px #1d93dd solid;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .complex_form {
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 3px #1d93dd solid;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+
+  .form1
+  {
+    display: none;
+  }
+  .complex_form .form_title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: -25px -10px 25px -10px;
+    padding: 10px 0px 10px 25px;
+    color: rgb(43, 212, 173);
+    background-color: #374665;
+    border-radius: 7px 7px 0px 0px;
+  }
+  
+  .complex_form .form_radio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .complex_form .form_element {
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+  }
+  
+  .btn {
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    background: #3c3d3f;
+    border: 2px #ffffff solid;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  .btn:hover {
+    background: #3c3d3f;
+    color: #ffffff;
+  }
+
+  .add_image_form {
+    display: none;
+  }
+
+  

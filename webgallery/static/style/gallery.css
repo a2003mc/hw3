@@ -1,0 +1,43 @@
+#gallery {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #imageElement {
+    width: 200px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+}
+
+
+  /* Add CSS styles for comments */
+  .comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  
+  }
+  
+  .comment_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .comment_username {
+    font-weight: bold;
+  }
+  
+  .date {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .comment_content {
+    font-size: 14px;
+  }
+  

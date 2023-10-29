@@ -1,0 +1,32 @@
+#comment {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .vote_button {
+    width: 64px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    text-align: center;
+  }
+  
+  .image {
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+  }
+  
+  .delete-icon {
+    background-image: url("../media/delete-icon.png");
+  }
+  
+  .comment{
+    text-emphasis-color: white;
+    text-align: left;
+  }

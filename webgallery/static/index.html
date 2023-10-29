@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <script type="module" src="js/index.mjs"></script>
+    <meta charset="utf-8" />
+    <title>Microblog</title>
+    <link href="style/main.css" rel="stylesheet" type="text/css" />
+    <link href="style/comment.css" rel="stylesheet" type="text/css" />
+    <link href="style/form.css" rel="stylesheet" type="text/css" />
+    <link href="style/gallery.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <a href="/" id="title">Webgallery</a>
+    </header>
+
+
+    <button id="login">Login</button>
+    <button id="signout">Signout</button>
+    <button id="show">show/hide add image form</button>
+ 
+
+
+
+    <form class="complex_form" id="add_image_form"  enctype="multipart/form-data">
+        <div class="form_title">add image </div>
+        <input
+            type="text"
+            id="post_title"
+            class="form_element"
+            placeholder="Enter your title"
+            name="title"
+            required
+        />
+      
+        <input type="file" name="image" required accept="image/*">
+        <button type="submit" class="btn">Post your image</button>
+    </form>
+
+    <div class="complex_form" id="image_display">
+        <div class="form_title">current image</div>
+        <div Id="image">    
+        </div>
+      <div type="complex_form">
+        <button  class="btn" id="previous">Previous</button>
+        <button class="btn" id="next">Next</button>
+        <button type="delete-button" id="delete" class="btn">delete image</button>
+      </div>
+    </div>
+
+
+    <form class="complex_form" id="create_comment_form" action="/addComment" method="post" enctype="multipart/form-data">
+      <div class="form_title">Post a comment</div>
+  
+      <textarea
+        rows="5"
+        id="post_content"
+        class="form_element"
+        name="content"
+        placeholder="Enter your comment"
+        required
+      ></textarea>
+      <button type="submit" class="btn">Post your message</button>
+      <div id="comments">
+      </div>
+    </form>
+    
+    <div id="move_comment">
+      <button class="btn" id="moveUpButton">Move Up</button>
+      <button class="btn" id="moveDownButton">Move Down</button>
+    </div>
+
+      <footer>
+      <a href="/credits.html">credits</a>
+    </footer>
+  </body>
+</html>
